@@ -1,2 +1,5 @@
 #!/bin/bash
 chmod -R ugo+X ./
+[master 93aff4c] excute permission to . / script added
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x01-shell_permissions/11-directories_permissions
