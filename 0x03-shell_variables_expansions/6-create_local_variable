@@ -1,2 +1,2 @@
 #!/bin/bash
-local BEST="school"
+my_function(){ local BEST=school }
