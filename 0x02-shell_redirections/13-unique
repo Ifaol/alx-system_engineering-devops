@@ -1,2 +1,2 @@
 #!/bin/bash
-tr    n | uniq | sort | tr n  
+uniq | sort
