@@ -34,7 +34,7 @@ Complete the required levels in the CMD Challenge, and take screenshots to showc
        
 Include the following steps in your project's README.md file to guide reviewers on how you performed the SFTP file transfer:
 
-## SFTP File Transfer
+      SFTP File Transfer
 
 Follow these steps to use SFTP for transferring screenshots to the sandbox environment:
 
@@ -43,22 +43,22 @@ Follow these steps to use SFTP for transferring screenshots to the sandbox envir
 2. Establish an SFTP connection to the sandbox environment using the provided hostname, username, and password.
 
 A. Test SSH access by
-  ssh Username@Hostname
->>provide password when prompted
+ssh Username@Hostname
+provide password when prompted
 B. Exit SSH connection by
-  exit
+exit
 C. Now establish an SFTP session by
-  sftp Username@Hostname
->>provide password when prompted
+sftp Username@Hostname
+provide password when prompted
 
 3. Navigate to the desired directory on the sandbox environment.
 
 A. Navigate file system by
-  cd directoryname
+cd directoryname
   
 4. Use the `put` command to upload the screenshots from your local machine to the sandbox.
 
 A. Upload the files by
-  put filename
+put filename
   
 5. Confirm the successful transfer by checking the sandbox directory.
