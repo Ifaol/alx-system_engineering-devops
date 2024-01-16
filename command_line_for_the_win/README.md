@@ -42,23 +42,32 @@ Follow these steps to use SFTP for transferring screenshots to the sandbox envir
 
 2. Establish an SFTP connection to the sandbox environment using the provided hostname, username, and password.
 
-A. Test SSH access by
+a. Test SSH access by command
+   
 ssh Username@Hostname
+  
 provide password when prompted
-B. Exit SSH connection by
+  
+b. Exit SSH connection by command
+  
 exit
-C. Now establish an SFTP session by
+   
+c. Now establish an SFTP session by command
+  
 sftp Username@Hostname
+  
 provide password when prompted
-
+  
 3. Navigate to the desired directory on the sandbox environment.
-
-A. Navigate file system by
+  
+a. Navigate file system by command
+  
 cd directoryname
   
 4. Use the `put` command to upload the screenshots from your local machine to the sandbox.
-
-A. Upload the files by
-put filename
   
+a. Upload the files by command
+  
+put filename
+   
 5. Confirm the successful transfer by checking the sandbox directory.
