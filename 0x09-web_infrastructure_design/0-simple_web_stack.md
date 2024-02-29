@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-![Image of a simple web stack](0-simple_web_stack.PNG)
+![Image of a simple web stack](0-simple_web_stack.svg)
 
 
 ## Description
